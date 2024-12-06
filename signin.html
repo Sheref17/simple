@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Logo</h1>
+        <ul>
+            <li><a href="signin.html"class="active">Home</a></li>
+            <li><a href="contact.html"class="active">Contact</a></li>
+            <li><a href="index.Html" class="active">Sign up</a></li>
+            <li><a href="signin.html" class="active">Login</a></li>
+        </ul>
+    </div>
+    <div class="Register">
+   <div class="head"><h2>Log in</h2></div>
+        <form >
+        <div class="inputs">
+            <label for="userName">
+                <i class="fa-regular fa-user"></i>
+            </label>
+            <input type="text" id="userName" name="name" placeholder="Name">
+       
+        </div>
+      
+          <div class="inputs">
+            <label for="userPass">
+                <i class="fa-solid fa-lock"></i>
+                </label>
+            <input type="password" id="userPass" name="password" placeholder="password">
+        
+          </div>
+        </form>
+        <button onclick="Signin()">Sign in</button>
+        <div id="alerts" class="alert"></div>
+        <div class="Signin">
+            <span> Don't you  have an accouent?</span>
+            <a href="index.Html"> Sign up</a>
+        </div>
+      
+
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/signin.js"></script>
+
+    
+    
+</body>
+</html>
