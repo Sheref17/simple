@@ -19,7 +19,7 @@ function Signin() {
 
                     alerts.classList.add("green");
                     alerts.innerHTML = "<p>Logged in successfully</p>";
-                    window.location.href = "../home.html";
+                    window.location.href = ".././home.html";
                     break;
                 }
             }
