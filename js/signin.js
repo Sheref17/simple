@@ -16,10 +16,9 @@ function Signin() {
                 if (user.Name.toLowerCase() === users[i].Name.toLowerCase() && user.Pass === users[i].Pass) {
                     localStorage.setItem("sessionUsername", users[i].Name);
                     found = true;
-
                     alerts.classList.add("green");
                     alerts.innerHTML = "<p>Logged in successfully</p>";
-                    window.location.href = ".././home.html";
+                    location.replace("./home.html");
                     break;
                 }
             }
